@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springweb:war exploded">
+    <output-path>$PROJECT_DIR$/springweb/target/springweb</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springweb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fengwenyi:JavaLib:1.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.8.0-beta2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.8.0-beta2" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.4.12.v20180830" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.4.12.v20180830" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.4.12.v20180830" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.4.12.v20180830" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/springweb/target/springweb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="springweb/web/Web" />
+    </root>
+  </artifact>
+</component>
